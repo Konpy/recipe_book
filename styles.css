@@ -1,11 +1,32 @@
 body{
-    background-color: blueviolet;
+    background-color:white;
 }
 
 .Title{
     color: green;
 }
 
-a{
-    font-size: 50px;
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 30px;
 }
+.FoodItem{
+    flex: 1 0 21%;
+    margin:5px;
+}
+
+img{
+    width:250px;
+    height: 250px;
+    object-fit:fill;
+    transition: opacity 0.5s;
+    
+}
+img:hover{
+    color: black;
+    opacity: 0.5;
+}
+
